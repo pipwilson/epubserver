@@ -1,0 +1,3 @@
+A simple sever that delivers an openpub (Atom) file listing the .epub files in a location on your file system so that you can host a custom catalog for your ebook reader without needing to use a piece of more heavyweight ebook management software.
+
+It is written in PHP.
