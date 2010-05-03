@@ -1,3 +1,7 @@
 A simple sever that delivers an openpub (Atom) file listing the .epub files in a location on your file system so that you can host a custom catalog for your ebook reader without needing to use a piece of more heavyweight ebook management software.
 
-It is written in PHP.
+It is written in PHP and uses http://sourceforge.net/projects/oplsepublibrary/ to parse the .epub files.
+
+It is GPL licensed.
+
+This is the very start, so it doesn't work yet!

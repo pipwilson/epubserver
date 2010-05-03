@@ -1,0 +1,2259 @@
+<?xml version="1.0" ?>
+<ncx:ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" version="2005-1"> 
+  <ncx:head> 
+    <ncx:meta name="cover" content="cover"/> 
+    <ncx:meta name="dtb:uid" content="isbn:9780596158439"/> 
+    <ncx:meta name="dtb:depth" content="-1"/> 
+    <ncx:meta name="dtb:totalPageCount" content="0"/> 
+    <ncx:meta name="dtb:maxPageNumber" content="0"/> 
+  </ncx:head> 
+  <ncx:docTitle> 
+    <ncx:text>Beautiful Code</ncx:text> 
+  </ncx:docTitle> 
+  <ncx:navMap> 
+    <ncx:navPoint id="id2385699" playOrder="1"> 
+      <ncx:navLabel> 
+        <ncx:text>Beautiful Code</ncx:text> 
+      </ncx:navLabel> 
+      <ncx:content src="index.html"/> 
+      <ncx:navPoint id="id2389538" playOrder="2"> 
+        <ncx:navLabel> 
+          <ncx:text>Foreword</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="pr01.html"/> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2389625" playOrder="3"> 
+        <ncx:navLabel> 
+          <ncx:text>Preface</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="pr02.html"/> 
+        <ncx:navPoint id="id2386060" playOrder="4"> 
+          <ncx:navLabel> 
+            <ncx:text>How This Book Is Organized</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="pr02.html#how_this_book_is_organized"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2393069" playOrder="5"> 
+          <ncx:navLabel> 
+            <ncx:text>Conventions Used in This Book</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="pr02s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2393122" playOrder="6"> 
+          <ncx:navLabel> 
+            <ncx:text>Using Code Examples</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="pr02s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2393169" playOrder="7"> 
+          <ncx:navLabel> 
+            <ncx:text>How to Contact Us</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="pr02s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2393224" playOrder="8"> 
+          <ncx:navLabel> 
+            <ncx:text>Safari® Enabled</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="pr02s05.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2393273" playOrder="9"> 
+        <ncx:navLabel> 
+          <ncx:text>1. A Regular Expression Matcher</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch01.html"/> 
+        <ncx:navPoint id="id2391236" playOrder="10"> 
+          <ncx:navLabel> 
+            <ncx:text>1.1. The Practice of Programming</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch01.html#the_practice_of_programming"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2391504" playOrder="11"> 
+          <ncx:navLabel> 
+            <ncx:text>1.2. Implementation</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch01s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2391592" playOrder="12"> 
+          <ncx:navLabel> 
+            <ncx:text>1.3. Discussion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch01s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2391943" playOrder="13"> 
+          <ncx:navLabel> 
+            <ncx:text>1.4. Alternatives</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch01s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2392128" playOrder="14"> 
+          <ncx:navLabel> 
+            <ncx:text>1.5. Building on It</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch01s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2455048" playOrder="15"> 
+          <ncx:navLabel> 
+            <ncx:text>1.6. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch01s06.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2455128" playOrder="16"> 
+        <ncx:navLabel> 
+          <ncx:text>2. Subversion's Delta Editor: Interface As Ontology</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch02.html"/> 
+        <ncx:navPoint id="id2392579" playOrder="17"> 
+          <ncx:navLabel> 
+            <ncx:text>2.1. Version Control and Tree Transformation</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch02.html#version_control_and_tree_transformation"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2455929" playOrder="18"> 
+          <ncx:navLabel> 
+            <ncx:text>2.2. Expressing Tree Differences</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch02s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2456060" playOrder="19"> 
+          <ncx:navLabel> 
+            <ncx:text>2.3. The Delta Editor Interface</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch02s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2457091" playOrder="20"> 
+          <ncx:navLabel> 
+            <ncx:text>2.4. But Is It Art?</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch02s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2457359" playOrder="21"> 
+          <ncx:navLabel> 
+            <ncx:text>2.5. Abstraction As a Spectator Sport</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch02s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2457800" playOrder="22"> 
+          <ncx:navLabel> 
+            <ncx:text>2.6. Conclusions</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch02s06.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2457879" playOrder="23"> 
+        <ncx:navLabel> 
+          <ncx:text>3. The Most Beautiful Code I Never Wrote</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch03.html"/> 
+        <ncx:navPoint id="id2457953" playOrder="24"> 
+          <ncx:navLabel> 
+            <ncx:text>3.1. The Most Beautiful Code I Ever Wrote</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch03.html#the_most_beautiful_code_i_ever_wrote"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2458240" playOrder="25"> 
+          <ncx:navLabel> 
+            <ncx:text>3.2. More and More with Less and Less</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch03s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2459591" playOrder="26"> 
+          <ncx:navLabel> 
+            <ncx:text>3.3. Perspective</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch03s03.html"/> 
+          <ncx:navPoint id="id2460291" playOrder="27"> 
+            <ncx:navLabel> 
+              <ncx:text>3.3.1. A Bonus Analysis</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch03s03.html#a_bonus_analysis"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2460441" playOrder="28"> 
+          <ncx:navLabel> 
+            <ncx:text>3.4. What Is Writing?</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch03s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2460546" playOrder="29"> 
+          <ncx:navLabel> 
+            <ncx:text>3.5. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch03s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2460777" playOrder="30"> 
+          <ncx:navLabel> 
+            <ncx:text>3.6. Acknowledgments</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch03s06.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2460802" playOrder="31"> 
+        <ncx:navLabel> 
+          <ncx:text>4. Finding Things</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch04.html"/> 
+        <ncx:navPoint id="id2460869" playOrder="32"> 
+          <ncx:navLabel> 
+            <ncx:text>4.1. On Time</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch04.html#on_time"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2460889" playOrder="33"> 
+          <ncx:navLabel> 
+            <ncx:text>4.2. Problem: Weblog Data</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch04s02.html"/> 
+          <ncx:navPoint id="id2461027" playOrder="34"> 
+            <ncx:navLabel> 
+              <ncx:text>4.2.1. Regular Expressions</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch04s02.html#regular_expressions"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2461210" playOrder="35"> 
+            <ncx:navLabel> 
+              <ncx:text>4.2.2. Putting Regular Expressions to Work</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch04s02.html#putting_regular_expressions_to_work"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2371878" playOrder="36"> 
+            <ncx:navLabel> 
+              <ncx:text>4.2.3. Content-Addressable Storage</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch04s02.html#content-addressable_storage"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2372494" playOrder="37"> 
+            <ncx:navLabel> 
+              <ncx:text>4.2.4. Time to Optimize?</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch04s02.html#time_to_optimize"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2372731" playOrder="38"> 
+          <ncx:navLabel> 
+            <ncx:text>4.3. Problem: Who Fetched What, When?</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch04s03.html"/> 
+          <ncx:navPoint id="id2372898" playOrder="39"> 
+            <ncx:navLabel> 
+              <ncx:text>4.3.1. Binary Search</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch04s03.html#binary_search"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2373212" playOrder="40"> 
+            <ncx:navLabel> 
+              <ncx:text>4.3.2. Binary Search Trade-offs</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch04s03.html#binary_search_trade-offs"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2373353" playOrder="41"> 
+            <ncx:navLabel> 
+              <ncx:text>4.3.3. Escaping the Loop</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch04s03.html#escaping_the_loop"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2373456" playOrder="42"> 
+          <ncx:navLabel> 
+            <ncx:text>4.4. Search in the Large</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch04s04.html"/> 
+          <ncx:navPoint id="id2373534" playOrder="43"> 
+            <ncx:navLabel> 
+              <ncx:text>4.4.1. Searching with Postings</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch04s04.html#searching_with_postings"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2373614" playOrder="44"> 
+            <ncx:navLabel> 
+              <ncx:text>4.4.2. Ranking Results</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch04s04.html#ranking_results"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2373662" playOrder="45"> 
+            <ncx:navLabel> 
+              <ncx:text>4.4.3. Searching the Web</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch04s04.html#searching_the_web"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2373808" playOrder="46"> 
+          <ncx:navLabel> 
+            <ncx:text>4.5. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch04s05.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2373831" playOrder="47"> 
+        <ncx:navLabel> 
+          <ncx:text>5. Correct, Beautiful, Fast (in That Order): Lessons from Designing XML Verifiers</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch05.html"/> 
+        <ncx:navPoint id="id2373905" playOrder="48"> 
+          <ncx:navLabel> 
+            <ncx:text>5.1. The Role of XML Validation</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch05.html#the_role_of_xml_validation"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2374023" playOrder="49"> 
+          <ncx:navLabel> 
+            <ncx:text>5.2. The Problem</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch05s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2374247" playOrder="50"> 
+          <ncx:navLabel> 
+            <ncx:text>5.3. Version 1: The Naïve Implementation</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch05s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2374408" playOrder="51"> 
+          <ncx:navLabel> 
+            <ncx:text>5.4. Version 2: Imitating the BNF Grammar O(N)</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch05s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2374626" playOrder="52"> 
+          <ncx:navLabel> 
+            <ncx:text>5.5. Version 3: First Optimization O(log N)</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch05s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2374769" playOrder="53"> 
+          <ncx:navLabel> 
+            <ncx:text>5.6. Version 4: Second Optimization: Don't Check Twice</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch05s06.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2375079" playOrder="54"> 
+          <ncx:navLabel> 
+            <ncx:text>5.7. Version 5: Third Optimization O(1)</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch05s07.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2375709" playOrder="55"> 
+          <ncx:navLabel> 
+            <ncx:text>5.8. Version 6: Fourth Optimization: Caching</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch05s08.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2375914" playOrder="56"> 
+          <ncx:navLabel> 
+            <ncx:text>5.9. The Moral of the Story</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch05s09.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2375954" playOrder="57"> 
+        <ncx:navLabel> 
+          <ncx:text>6. Framework for Integrated Test: Beauty Through Fragility</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch06.html"/> 
+        <ncx:navPoint id="id2376064" playOrder="58"> 
+          <ncx:navLabel> 
+            <ncx:text>6.1. An Acceptance Testing Framework in Three Classes</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch06.html#an_acceptance_testing_framework_in_three_classes"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2376431" playOrder="59"> 
+          <ncx:navLabel> 
+            <ncx:text>6.2. The Challenge of Framework Design</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch06s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2376723" playOrder="60"> 
+          <ncx:navLabel> 
+            <ncx:text>6.3. An Open Framework</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch06s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2377020" playOrder="61"> 
+          <ncx:navLabel> 
+            <ncx:text>6.4. How Simple Can an HTML Parser Be?</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch06s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2377498" playOrder="62"> 
+          <ncx:navLabel> 
+            <ncx:text>6.5. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch06s05.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2377656" playOrder="63"> 
+        <ncx:navLabel> 
+          <ncx:text>7. Beautiful Tests</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch07.html"/> 
+        <ncx:navPoint id="id2377887" playOrder="64"> 
+          <ncx:navLabel> 
+            <ncx:text>7.1. That Pesky Binary Search</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch07.html#that_pesky_binary_search"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2378269" playOrder="65"> 
+          <ncx:navLabel> 
+            <ncx:text>7.2. Introducing JUnit</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch07s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2378454" playOrder="66"> 
+          <ncx:navLabel> 
+            <ncx:text>7.3. Nailing Binary Search</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch07s03.html"/> 
+          <ncx:navPoint id="id2398285" playOrder="67"> 
+            <ncx:navLabel> 
+              <ncx:text>7.3.1. Smoking Allowed (and Encouraged)</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch07s03.html#smoking_allowed_and_encouraged"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2398406" playOrder="68"> 
+            <ncx:navLabel> 
+              <ncx:text>7.3.2. Pushing the Boundaries</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch07s03.html#pushing_the_boundaries"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2399068" playOrder="69"> 
+            <ncx:navLabel> 
+              <ncx:text>7.3.3. Random Acts of Testing</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch07s03.html#random_acts_of_testing"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2400063" playOrder="70"> 
+            <ncx:navLabel> 
+              <ncx:text>7.3.4. Performance Anxiety</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch07s03.html#performance_anxiety"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2400394" playOrder="71"> 
+          <ncx:navLabel> 
+            <ncx:text>7.4. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch07s04.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2400478" playOrder="72"> 
+        <ncx:navLabel> 
+          <ncx:text>8. On-the-Fly Code Generation for Image Processing</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch08.html"/> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2405455" playOrder="73"> 
+        <ncx:navLabel> 
+          <ncx:text>9. Top Down Operator Precedence</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch09.html"/> 
+        <ncx:navPoint id="id2405702" playOrder="74"> 
+          <ncx:navLabel> 
+            <ncx:text>9.1. JavaScript</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09.html#javascript"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2405929" playOrder="75"> 
+          <ncx:navLabel> 
+            <ncx:text>9.2. Symbol Table</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2420814" playOrder="76"> 
+          <ncx:navLabel> 
+            <ncx:text>9.3. Tokens</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2420991" playOrder="77"> 
+          <ncx:navLabel> 
+            <ncx:text>9.4. Precedence</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2421233" playOrder="78"> 
+          <ncx:navLabel> 
+            <ncx:text>9.5. Expressions</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2421338" playOrder="79"> 
+          <ncx:navLabel> 
+            <ncx:text>9.6. Infix Operators</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s06.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2421743" playOrder="80"> 
+          <ncx:navLabel> 
+            <ncx:text>9.7. Prefix Operators</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s07.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2421876" playOrder="81"> 
+          <ncx:navLabel> 
+            <ncx:text>9.8. Assignment Operators</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s08.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2421987" playOrder="82"> 
+          <ncx:navLabel> 
+            <ncx:text>9.9. Constants</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s09.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2422059" playOrder="83"> 
+          <ncx:navLabel> 
+            <ncx:text>9.10. Scope</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s10.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2422476" playOrder="84"> 
+          <ncx:navLabel> 
+            <ncx:text>9.11. Statements</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s11.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2423015" playOrder="85"> 
+          <ncx:navLabel> 
+            <ncx:text>9.12. Functions</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s12.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2423189" playOrder="86"> 
+          <ncx:navLabel> 
+            <ncx:text>9.13. Array and Object Literals</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s13.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2423287" playOrder="87"> 
+          <ncx:navLabel> 
+            <ncx:text>9.14. Things to Do and Think About</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch09s14.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2423408" playOrder="88"> 
+        <ncx:navLabel> 
+          <ncx:text>10. The Quest for an Accelerated Population Count</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch10.html"/> 
+        <ncx:navPoint id="id2423541" playOrder="89"> 
+          <ncx:navLabel> 
+            <ncx:text>10.1. Basic Methods</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch10.html#basic_methods"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2423772" playOrder="90"> 
+          <ncx:navLabel> 
+            <ncx:text>10.2. Divide and Conquer</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch10s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2424185" playOrder="91"> 
+          <ncx:navLabel> 
+            <ncx:text>10.3. Other Methods</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch10s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2424419" playOrder="92"> 
+          <ncx:navLabel> 
+            <ncx:text>10.4. Sum and Difference of Population Counts of Two Words</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch10s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2424577" playOrder="93"> 
+          <ncx:navLabel> 
+            <ncx:text>10.5. Comparing the Population Counts of Two Words</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch10s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2424734" playOrder="94"> 
+          <ncx:navLabel> 
+            <ncx:text>10.6. Counting the 1-Bits in an Array</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch10s06.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2425940" playOrder="95"> 
+          <ncx:navLabel> 
+            <ncx:text>10.7. Applications</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch10s07.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2426486" playOrder="96"> 
+        <ncx:navLabel> 
+          <ncx:text>11. Secure Communication: The Technology Of Freedom</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch11.html"/> 
+        <ncx:navPoint id="id2426704" playOrder="97"> 
+          <ncx:navLabel> 
+            <ncx:text>11.1. The Heart of the Start</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch11.html#the_heart_of_the_start"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2426868" playOrder="98"> 
+          <ncx:navLabel> 
+            <ncx:text>11.2. Untangling the Complexity of Secure Messaging</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch11s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2427154" playOrder="99"> 
+          <ncx:navLabel> 
+            <ncx:text>11.3. Usability Is the Key</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch11s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2427550" playOrder="100"> 
+          <ncx:navLabel> 
+            <ncx:text>11.4. The Foundation</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch11s04.html"/> 
+          <ncx:navPoint id="id2427724" playOrder="101"> 
+            <ncx:navLabel> 
+              <ncx:text>11.4.1. Design Goals and Decisions</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch11s04.html#design_goals_and_decisions"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2427847" playOrder="102"> 
+            <ncx:navLabel> 
+              <ncx:text>11.4.2. Basic System Design</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch11s04.html#basic_system_design"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2428133" playOrder="103"> 
+          <ncx:navLabel> 
+            <ncx:text>11.5. The Test Suite</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch11s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2428258" playOrder="104"> 
+          <ncx:navLabel> 
+            <ncx:text>11.6. The Functioning Prototype</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch11s06.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2428482" playOrder="105"> 
+          <ncx:navLabel> 
+            <ncx:text>11.7. Clean Up, Plug In, Rock On…</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch11s07.html"/> 
+          <ncx:navPoint id="id2428695" playOrder="106"> 
+            <ncx:navLabel> 
+              <ncx:text>11.7.1. Revamping the Mail Store</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch11s07.html#revamping_the_mail_store"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2428976" playOrder="107"> 
+            <ncx:navLabel> 
+              <ncx:text>11.7.2. Persistence of Decryption</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch11s07.html#persistence_of_decryption"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2429238" playOrder="108"> 
+          <ncx:navLabel> 
+            <ncx:text>11.8. Hacking in the Himalayas</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch11s08.html"/> 
+          <ncx:navPoint id="id2406166" playOrder="109"> 
+            <ncx:navLabel> 
+              <ncx:text>11.8.1. Securing the Code</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch11s08.html#securing_the_code"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2406406" playOrder="110"> 
+            <ncx:navLabel> 
+              <ncx:text>11.8.2. Auditing Crypt::GPG</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch11s08.html#auditing_cryptgpg"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2406731" playOrder="111"> 
+          <ncx:navLabel> 
+            <ncx:text>11.9. The Invisible Hand Moves</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch11s09.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2407030" playOrder="112"> 
+          <ncx:navLabel> 
+            <ncx:text>11.10. Speed Does Matter</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch11s10.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2407184" playOrder="113"> 
+          <ncx:navLabel> 
+            <ncx:text>11.11. Communications Privacy for Individual Rights</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch11s11.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2407359" playOrder="114"> 
+          <ncx:navLabel> 
+            <ncx:text>11.12. Hacking the Civilization</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch11s12.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2407486" playOrder="115"> 
+        <ncx:navLabel> 
+          <ncx:text>12. Growing Beautiful Code in BioPerl</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch12.html"/> 
+        <ncx:navPoint id="id2407556" playOrder="116"> 
+          <ncx:navLabel> 
+            <ncx:text>12.1. BioPerl and the Bio::Graphics Module</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch12.html#bioperl_and_the_biographics_module"/> 
+          <ncx:navPoint id="id2407758" playOrder="117"> 
+            <ncx:navLabel> 
+              <ncx:text>12.1.1. Example of Bio::Graphics Output</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch12.html#example_of_biographics_output"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2407984" playOrder="118"> 
+            <ncx:navLabel> 
+              <ncx:text>12.1.2. Bio::Graphics Requirements</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch12.html#biographics_requirements"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2408302" playOrder="119"> 
+          <ncx:navLabel> 
+            <ncx:text>12.2. The Bio::Graphics Design Process</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch12s02.html"/> 
+          <ncx:navPoint id="id2408360" playOrder="120"> 
+            <ncx:navLabel> 
+              <ncx:text>12.2.1. Designing How the Developer Interacts with the Module</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch12s02.html#designing_how_the_developer_interacts_with_the_module"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2409083" playOrder="121"> 
+            <ncx:navLabel> 
+              <ncx:text>12.2.2. Setting Options</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch12s02.html#setting_options"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2409478" playOrder="122"> 
+            <ncx:navLabel> 
+              <ncx:text>12.2.3. Choosing Object Classes</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch12s02.html#choosing_object_classes"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2410013" playOrder="123"> 
+            <ncx:navLabel> 
+              <ncx:text>12.2.4. Option Processing</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch12s02.html#option_processing"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2411100" playOrder="124"> 
+            <ncx:navLabel> 
+              <ncx:text>12.2.5. Code Example</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch12s02.html#code_example"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2411381" playOrder="125"> 
+            <ncx:navLabel> 
+              <ncx:text>12.2.6. Dynamic Options</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch12s02.html#dynamic_options"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2412108" playOrder="126"> 
+          <ncx:navLabel> 
+            <ncx:text>12.3. Extending Bio::Graphics</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch12s03.html"/> 
+          <ncx:navPoint id="id2412142" playOrder="127"> 
+            <ncx:navLabel> 
+              <ncx:text>12.3.1. Supporting Web Developers</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch12s03.html#supporting_web_developers"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2412420" playOrder="128"> 
+            <ncx:navLabel> 
+              <ncx:text>12.3.2. Supporting Publication-Quality Images</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch12s03.html#supporting_publication-quality_images"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2412663" playOrder="129"> 
+            <ncx:navLabel> 
+              <ncx:text>12.3.3. Adding New Glyphs</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch12s03.html#adding_new_glyphs"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2412903" playOrder="130"> 
+          <ncx:navLabel> 
+            <ncx:text>12.4. Conclusions and Lessons Learned</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch12s04.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2413052" playOrder="131"> 
+        <ncx:navLabel> 
+          <ncx:text>13. The Design of the Gene Sorte</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch13.html"/> 
+        <ncx:navPoint id="id2413226" playOrder="132"> 
+          <ncx:navLabel> 
+            <ncx:text>13.1. The User Interface of the Gene Sorter</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch13.html#the_user_interface_of_the_gene_sorter"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2413333" playOrder="133"> 
+          <ncx:navLabel> 
+            <ncx:text>13.2. Maintaining a Dialog with the User over the Web</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch13s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2413762" playOrder="134"> 
+          <ncx:navLabel> 
+            <ncx:text>13.3. A Little Polymorphism Can Go a Long Way</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch13s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2414276" playOrder="135"> 
+          <ncx:navLabel> 
+            <ncx:text>13.4. Filtering Down to Just the Relevant Genes</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch13s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2414479" playOrder="136"> 
+          <ncx:navLabel> 
+            <ncx:text>13.5. Theory of Beautiful Code in the Large</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch13s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2414930" playOrder="137"> 
+          <ncx:navLabel> 
+            <ncx:text>13.6. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch13s06.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2414993" playOrder="138"> 
+        <ncx:navLabel> 
+          <ncx:text>14. How Elegant Code Evolves with Hardware The Case of Gaussian Elimination</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch14.html"/> 
+        <ncx:navPoint id="id2415282" playOrder="139"> 
+          <ncx:navLabel> 
+            <ncx:text>14.1. The Effects of Computer Architectures on Matrix Algorithms</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch14.html#the_effects_of_computer_architectures_on_matrix_algorithms"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2415661" playOrder="140"> 
+          <ncx:navLabel> 
+            <ncx:text>14.2. A Decompositional Approach</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch14s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2415894" playOrder="141"> 
+          <ncx:navLabel> 
+            <ncx:text>14.3. A Simple Version</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch14s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2416235" playOrder="142"> 
+          <ncx:navLabel> 
+            <ncx:text>14.4. LINPACK's DGEFA Subroutine</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch14s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2416586" playOrder="143"> 
+          <ncx:navLabel> 
+            <ncx:text>14.5. LAPACK DGETRF</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch14s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2417106" playOrder="144"> 
+          <ncx:navLabel> 
+            <ncx:text>14.6. Recursive LU</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch14s06.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2417608" playOrder="145"> 
+          <ncx:navLabel> 
+            <ncx:text>14.7. ScaLAPACK PDGETRF</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch14s07.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2418337" playOrder="146"> 
+          <ncx:navLabel> 
+            <ncx:text>14.8. Multithreading for Multi-Core Systems</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch14s08.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2418820" playOrder="147"> 
+          <ncx:navLabel> 
+            <ncx:text>14.9. A Word About the Error Analysis and Operation Count</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch14s09.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2419001" playOrder="148"> 
+          <ncx:navLabel> 
+            <ncx:text>14.10. Future Directions for Research</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch14s10.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2419088" playOrder="149"> 
+          <ncx:navLabel> 
+            <ncx:text>14.11. Further Reading</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch14s11.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2419224" playOrder="150"> 
+        <ncx:navLabel> 
+          <ncx:text>15. The Long-Term Benefits of Beautiful Design</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch15.html"/> 
+        <ncx:navPoint id="id2419301" playOrder="151"> 
+          <ncx:navLabel> 
+            <ncx:text>15.1. My Idea of Beautiful Code</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch15.html#my_idea_of_beautiful_code"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2419356" playOrder="152"> 
+          <ncx:navLabel> 
+            <ncx:text>15.2. Introducing the CERN Library</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch15s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2419415" playOrder="153"> 
+          <ncx:navLabel> 
+            <ncx:text>15.3. Outer Beauty</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch15s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2420147" playOrder="154"> 
+          <ncx:navLabel> 
+            <ncx:text>15.4. Inner Beauty</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch15s04.html"/> 
+          <ncx:navPoint id="id2420183" playOrder="155"> 
+            <ncx:navLabel> 
+              <ncx:text>15.4.1. Beauty in Brevity and Simplicity</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch15s04.html#beauty_in_brevity_and_simplicity"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2420378" playOrder="156"> 
+            <ncx:navLabel> 
+              <ncx:text>15.4.2. Beauty in Frugality</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch15s04.html#beauty_in_frugality"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2420675" playOrder="157"> 
+            <ncx:navLabel> 
+              <ncx:text>15.4.3. Beauty in Flow</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch15s04.html#beauty_in_flow"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2490192" playOrder="158"> 
+          <ncx:navLabel> 
+            <ncx:text>15.5. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch15s05.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2490240" playOrder="159"> 
+        <ncx:navLabel> 
+          <ncx:text>16. The Linux Kernel Driver Model: The Benefits of Working Together</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch16.html"/> 
+        <ncx:navPoint id="id2490533" playOrder="160"> 
+          <ncx:navLabel> 
+            <ncx:text>16.1. Humble Beginnings</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch16.html#humble_beginnings"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2491220" playOrder="161"> 
+          <ncx:navLabel> 
+            <ncx:text>16.2. Reduced to Even Smaller Bits</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch16s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2491844" playOrder="162"> 
+          <ncx:navLabel> 
+            <ncx:text>16.3. Scaling Up to Thousands of Devices</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch16s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2492112" playOrder="163"> 
+          <ncx:navLabel> 
+            <ncx:text>16.4. Small Objects Loosely Joined</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch16s04.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2492177" playOrder="164"> 
+        <ncx:navLabel> 
+          <ncx:text>17. Another Level of Indirection</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch17.html"/> 
+        <ncx:navPoint id="id2492303" playOrder="165"> 
+          <ncx:navLabel> 
+            <ncx:text>17.1. From Code to Pointers</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch17.html#from_code_to_pointers"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2492660" playOrder="166"> 
+          <ncx:navLabel> 
+            <ncx:text>17.2. From Function Arguments to Argument Pointers</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch17s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2493454" playOrder="167"> 
+          <ncx:navLabel> 
+            <ncx:text>17.3. From Filesystems to Filesystem Layers</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch17s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2493792" playOrder="168"> 
+          <ncx:navLabel> 
+            <ncx:text>17.4. From Code to a Domain-Specific Language</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch17s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2494254" playOrder="169"> 
+          <ncx:navLabel> 
+            <ncx:text>17.5. Multiplexing and Demultiplexing</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch17s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2494612" playOrder="170"> 
+          <ncx:navLabel> 
+            <ncx:text>17.6. Layers Forever?</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch17s06.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2494728" playOrder="171"> 
+        <ncx:navLabel> 
+          <ncx:text>18. Python's Dictionary Implementation: Being All Things to All People</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch18.html"/> 
+        <ncx:navPoint id="id2495164" playOrder="172"> 
+          <ncx:navLabel> 
+            <ncx:text>18.1. Inside the Dictionary</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch18.html#inside_the_dictionary"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2495463" playOrder="173"> 
+          <ncx:navLabel> 
+            <ncx:text>18.2. Special Accommodations</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch18s02.html"/> 
+          <ncx:navPoint id="id2495484" playOrder="174"> 
+            <ncx:navLabel> 
+              <ncx:text>18.2.1. A Special-Case Optimization for Small Hashes</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch18s02.html#a_special-case_optimization_for_small_hashes"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2495566" playOrder="175"> 
+            <ncx:navLabel> 
+              <ncx:text>18.2.2. When Special-Casing Is Worth the Overhead</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch18s02.html#when_special-casing_is_worth_the_overhead"/> 
+            <ncx:navPoint id="id2495620" playOrder="176"> 
+              <ncx:navLabel> 
+                <ncx:text>18.2.2.1. The Java implementation: another special-case optimization</ncx:text> 
+              </ncx:navLabel> 
+              <ncx:content src="ch18s02.html#the_java_implementation_another_special-case_optimization"/> 
+            </ncx:navPoint> 
+            <ncx:navPoint id="id2495716" playOrder="177"> 
+              <ncx:navLabel> 
+                <ncx:text>18.2.2.2. The C implementation: selecting the storage function dynamically</ncx:text> 
+              </ncx:navLabel> 
+              <ncx:content src="ch18s02.html#the_c_implementation_selecting_the_storage_function_dynamically"/> 
+            </ncx:navPoint> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2495972" playOrder="178"> 
+          <ncx:navLabel> 
+            <ncx:text>18.3. Collisions</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch18s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2496163" playOrder="179"> 
+          <ncx:navLabel> 
+            <ncx:text>18.4. Resizing</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch18s04.html"/> 
+          <ncx:navPoint id="id2496213" playOrder="180"> 
+            <ncx:navLabel> 
+              <ncx:text>18.4.1. Determining the New Table Size</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch18s04.html#determining_the_new_table_size"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2496320" playOrder="181"> 
+            <ncx:navLabel> 
+              <ncx:text>18.4.2. A Memory Trade-Off That's Worth It: The Free List</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch18s04.html#a_memory_trade-off_thats_worth_it_the_free_list"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2496431" playOrder="182"> 
+          <ncx:navLabel> 
+            <ncx:text>18.5. Iterations and Dynamic Changes</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch18s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2496600" playOrder="183"> 
+          <ncx:navLabel> 
+            <ncx:text>18.6. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch18s06.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2496646" playOrder="184"> 
+          <ncx:navLabel> 
+            <ncx:text>18.7. Acknowledgments</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch18s07.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2496672" playOrder="185"> 
+        <ncx:navLabel> 
+          <ncx:text>19. Multidimensional Iterators in NumPy</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch19.html"/> 
+        <ncx:navPoint id="id2496912" playOrder="186"> 
+          <ncx:navLabel> 
+            <ncx:text>19.1. Key Challenges in N-Dimensional Array Operations</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch19.html#key_challenges_in_n-dimensional_array_operations"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2497244" playOrder="187"> 
+          <ncx:navLabel> 
+            <ncx:text>19.2. Memory Models for an N-Dimensional Array</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch19s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2497427" playOrder="188"> 
+          <ncx:navLabel> 
+            <ncx:text>19.3. NumPy Iterator Origins</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch19s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2497570" playOrder="189"> 
+          <ncx:navLabel> 
+            <ncx:text>19.4. Iterator Design</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch19s04.html"/> 
+          <ncx:navPoint id="id2497690" playOrder="190"> 
+            <ncx:navLabel> 
+              <ncx:text>19.4.1. Iterator Progression</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch19s04.html#iterator_progression"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2497995" playOrder="191"> 
+            <ncx:navLabel> 
+              <ncx:text>19.4.2. Iterator Termination</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch19s04.html#iterator_termination"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2498101" playOrder="192"> 
+            <ncx:navLabel> 
+              <ncx:text>19.4.3. Iterator Setup</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch19s04.html#iterator_setup"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2498353" playOrder="193"> 
+            <ncx:navLabel> 
+              <ncx:text>19.4.4. Iterator Counter Tracking</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch19s04.html#iterator_counter_tracking"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2498682" playOrder="194"> 
+            <ncx:navLabel> 
+              <ncx:text>19.4.5. Iterator Structure</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch19s04.html#iterator_structure"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2499061" playOrder="195"> 
+          <ncx:navLabel> 
+            <ncx:text>19.5. Iterator Interface</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch19s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2499339" playOrder="196"> 
+          <ncx:navLabel> 
+            <ncx:text>19.6. Iterator Use</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch19s06.html"/> 
+          <ncx:navPoint id="id2499389" playOrder="197"> 
+            <ncx:navLabel> 
+              <ncx:text>19.6.1. Iteration Over All But One Dimension</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch19s06.html#iteration_over_all_but_one_dimension"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2499551" playOrder="198"> 
+            <ncx:navLabel> 
+              <ncx:text>19.6.2. Multiple Iterations</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch19s06.html#multiple_iterations"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2499758" playOrder="199"> 
+            <ncx:navLabel> 
+              <ncx:text>19.6.3. Anecdotes</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch19s06.html#anecdotes"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2499916" playOrder="200"> 
+          <ncx:navLabel> 
+            <ncx:text>19.7. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch19s07.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2500012" playOrder="201"> 
+        <ncx:navLabel> 
+          <ncx:text>20. A Highly Reliable Enterprise System for NASA's Mars Rover Mission</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch20.html"/> 
+        <ncx:navPoint id="id2500159" playOrder="202"> 
+          <ncx:navLabel> 
+            <ncx:text>20.1. The Mission and the Collaborative Information Portal</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch20.html#the_mission_and_the_collaborative_information_portal"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2500263" playOrder="203"> 
+          <ncx:navLabel> 
+            <ncx:text>20.2. Mission Needs</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch20s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2500424" playOrder="204"> 
+          <ncx:navLabel> 
+            <ncx:text>20.3. System Architecture</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch20s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2500969" playOrder="205"> 
+          <ncx:navLabel> 
+            <ncx:text>20.4. Case Study: The Streamer Service</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch20s04.html"/> 
+          <ncx:navPoint id="id2501020" playOrder="206"> 
+            <ncx:navLabel> 
+              <ncx:text>20.4.1. Functionality</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch20s04.html#functionality"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2501087" playOrder="207"> 
+            <ncx:navLabel> 
+              <ncx:text>20.4.2. Service Architecture</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch20s04.html#service_architecture"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2501415" playOrder="208"> 
+          <ncx:navLabel> 
+            <ncx:text>20.5. Reliability</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch20s05.html"/> 
+          <ncx:navPoint id="id2501530" playOrder="209"> 
+            <ncx:navLabel> 
+              <ncx:text>20.5.1. Logging</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch20s05.html#logging"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2502149" playOrder="210"> 
+            <ncx:navLabel> 
+              <ncx:text>20.5.2. Monitoring</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch20s05.html#monitoring"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2502408" playOrder="211"> 
+          <ncx:navLabel> 
+            <ncx:text>20.6. Robustness</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch20s06.html"/> 
+          <ncx:navPoint id="id2502497" playOrder="212"> 
+            <ncx:navLabel> 
+              <ncx:text>20.6.1. Dynamic Reconfiguration</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch20s06.html#dynamic_reconfiguration"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2502619" playOrder="213"> 
+            <ncx:navLabel> 
+              <ncx:text>20.6.2. Hot Swapping</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch20s06.html#hot_swapping"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2502701" playOrder="214"> 
+          <ncx:navLabel> 
+            <ncx:text>20.7. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch20s07.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2502740" playOrder="215"> 
+        <ncx:navLabel> 
+          <ncx:text>21. ERP5: Designing for Maximum Adaptability</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch21.html"/> 
+        <ncx:navPoint id="id2502966" playOrder="216"> 
+          <ncx:navLabel> 
+            <ncx:text>21.1. General Goals of ERP</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch21.html#general_goals_of_erp"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2503007" playOrder="217"> 
+          <ncx:navLabel> 
+            <ncx:text>21.2. ERP5</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch21s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2503382" playOrder="218"> 
+          <ncx:navLabel> 
+            <ncx:text>21.3. The Underlying Zope Platform</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch21s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2503997" playOrder="219"> 
+          <ncx:navLabel> 
+            <ncx:text>21.4. ERP5 Project Concepts</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch21s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2504293" playOrder="220"> 
+          <ncx:navLabel> 
+            <ncx:text>21.5. Coding the ERP5 Project</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch21s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2504899" playOrder="221"> 
+          <ncx:navLabel> 
+            <ncx:text>21.6. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch21s06.html"/> 
+          <ncx:navPoint id="id2504945" playOrder="222"> 
+            <ncx:navLabel> 
+              <ncx:text>21.6.1. Acknowledgments</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch21s06.html#acknowledgments-id002"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2505018" playOrder="223"> 
+        <ncx:navLabel> 
+          <ncx:text>22. A Spoonful of Sewage</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch22.html"/> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2430240" playOrder="224"> 
+        <ncx:navLabel> 
+          <ncx:text>23. Distributed Programming with MapReduce</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch23.html"/> 
+        <ncx:navPoint id="id2430325" playOrder="225"> 
+          <ncx:navLabel> 
+            <ncx:text>23.1. A Motivating Example</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch23.html#a_motivating_example"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2430632" playOrder="226"> 
+          <ncx:navLabel> 
+            <ncx:text>23.2. The MapReduce Programming Model</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch23s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2430861" playOrder="227"> 
+          <ncx:navLabel> 
+            <ncx:text>23.3. Other MapReduce Examples</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch23s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2431138" playOrder="228"> 
+          <ncx:navLabel> 
+            <ncx:text>23.4. A Distributed MapReduce Implementation</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch23s04.html"/> 
+          <ncx:navPoint id="id2431247" playOrder="229"> 
+            <ncx:navLabel> 
+              <ncx:text>23.4.1. Execution Overview</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch23s04.html#execution_overview"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2431653" playOrder="230"> 
+          <ncx:navLabel> 
+            <ncx:text>23.5. Extensions to the Model</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch23s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2431857" playOrder="231"> 
+          <ncx:navLabel> 
+            <ncx:text>23.6. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch23s06.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2431889" playOrder="232"> 
+          <ncx:navLabel> 
+            <ncx:text>23.7. Further Reading</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch23s07.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2432028" playOrder="233"> 
+          <ncx:navLabel> 
+            <ncx:text>23.8. Acknowledgments</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch23s08.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2432060" playOrder="234"> 
+          <ncx:navLabel> 
+            <ncx:text>23.9. Appendix: Word Count Solution</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch23s09.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2432216" playOrder="235"> 
+        <ncx:navLabel> 
+          <ncx:text>24. Beautiful Concurrency</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch24.html"/> 
+        <ncx:navPoint id="id2432384" playOrder="236"> 
+          <ncx:navLabel> 
+            <ncx:text>24.1. A Simple Example: Bank Accounts</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch24.html#a_simple_example_bank_accounts"/> 
+          <ncx:navPoint id="id2432438" playOrder="237"> 
+            <ncx:navLabel> 
+              <ncx:text>24.1.1. Bank Accounts Using Locks</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch24.html#bank_accounts_using_locks"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2432834" playOrder="238"> 
+            <ncx:navLabel> 
+              <ncx:text>24.1.2. Locks Are Bad</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch24.html#locks_are_bad"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2433141" playOrder="239"> 
+          <ncx:navLabel> 
+            <ncx:text>24.2. Software Transactional Memory</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch24s02.html"/> 
+          <ncx:navPoint id="id2433187" playOrder="240"> 
+            <ncx:navLabel> 
+              <ncx:text>24.2.1. Side Effects and Input/Output in Haskell</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch24s02.html#side_effects_and_inputoutput_in_haskell"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2434423" playOrder="241"> 
+            <ncx:navLabel> 
+              <ncx:text>24.2.2. Transactions in Haskell</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch24s02.html#transactions_in_haskell"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2435118" playOrder="242"> 
+            <ncx:navLabel> 
+              <ncx:text>24.2.3. Implementing Transactional Memory</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch24s02.html#implementing_transactional_memory"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2435468" playOrder="243"> 
+            <ncx:navLabel> 
+              <ncx:text>24.2.4. Blocking and Choice</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch24s02.html#blocking_and_choice"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2435770" playOrder="244"> 
+            <ncx:navLabel> 
+              <ncx:text>24.2.5. Summary of Basic STM Operations</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch24s02.html#summary_of_basic_stm_operations"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2435968" playOrder="245"> 
+          <ncx:navLabel> 
+            <ncx:text>24.3. The Santa Claus Problem</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch24s03.html"/> 
+          <ncx:navPoint id="id2436114" playOrder="246"> 
+            <ncx:navLabel> 
+              <ncx:text>24.3.1. Reindeer and Elves</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch24s03.html#reindeer_and_elves"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2436398" playOrder="247"> 
+            <ncx:navLabel> 
+              <ncx:text>24.3.2. Gates and Groups</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch24s03.html#gates_and_groups"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2437187" playOrder="248"> 
+            <ncx:navLabel> 
+              <ncx:text>24.3.3. The Main Program</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch24s03.html#the_main_program"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2437578" playOrder="249"> 
+            <ncx:navLabel> 
+              <ncx:text>24.3.4. Implementing Santa</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch24s03.html#implementing_santa"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2438053" playOrder="250"> 
+            <ncx:navLabel> 
+              <ncx:text>24.3.5. Compiling and Running the Program</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch24s03.html#compiling_and_running_the_program"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2438195" playOrder="251"> 
+          <ncx:navLabel> 
+            <ncx:text>24.4. Reflections on Haskell</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch24s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2438342" playOrder="252"> 
+          <ncx:navLabel> 
+            <ncx:text>24.5. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch24s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2438635" playOrder="253"> 
+          <ncx:navLabel> 
+            <ncx:text>24.6. Acknowledgments</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch24s06.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2438658" playOrder="254"> 
+        <ncx:navLabel> 
+          <ncx:text>25. Syntactic Abstraction: The syntax-case Expander</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch25.html"/> 
+        <ncx:navPoint id="id2439924" playOrder="255"> 
+          <ncx:navLabel> 
+            <ncx:text>25.1. Brief Introduction to syntax-case</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch25.html#brief_introduction_to_syntax-case"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2440580" playOrder="256"> 
+          <ncx:navLabel> 
+            <ncx:text>25.2. Expansion Algorithm</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch25s02.html"/> 
+          <ncx:navPoint id="id2440718" playOrder="257"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.1. Representations</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#representations"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2441038" playOrder="258"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.2. Producing Expander Output</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#producing_expander_output"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2441159" playOrder="259"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.3. Stripping Syntax Objects</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#stripping_syntax_objects"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2441267" playOrder="260"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.4. Syntax Errors</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#syntax_errors"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2441334" playOrder="261"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.5. Structural Predicates</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#structural_predicates"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2441428" playOrder="262"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.6. Creating Wraps</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#creating_wraps"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2441522" playOrder="263"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.7. Manipulating Environments</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#manipulating_environments"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2441578" playOrder="264"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.8. Identifier Resolution</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#identifier_resolution"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2441783" playOrder="265"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.9. The Expander</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#the_expander"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2442177" playOrder="266"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.10. Core Transformers</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#core_transformers"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2442639" playOrder="267"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.11. Parsing and Constructing Syntax Objects</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#parsing_and_constructing_syntax_objects"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2442797" playOrder="268"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.12. Comparing Identifiers</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#comparing_identifiers"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2442963" playOrder="269"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.13. Conversions</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#conversions"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2443062" playOrder="270"> 
+            <ncx:navLabel> 
+              <ncx:text>25.2.14. Starting Expansion</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch25s02.html#starting_expansion"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2443246" playOrder="271"> 
+          <ncx:navLabel> 
+            <ncx:text>25.3. Example</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch25s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2443859" playOrder="272"> 
+          <ncx:navLabel> 
+            <ncx:text>25.4. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch25s04.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2443935" playOrder="273"> 
+        <ncx:navLabel> 
+          <ncx:text>26. Labor-Saving Architecture: An Object-Oriented Framework for Networked Software</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch26.html"/> 
+        <ncx:navPoint id="id2444300" playOrder="274"> 
+          <ncx:navLabel> 
+            <ncx:text>26.1. Sample Application: Logging Service</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch26.html#sample_application_logging_service"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2444741" playOrder="275"> 
+          <ncx:navLabel> 
+            <ncx:text>26.2. Object-Oriented Design of the Logging Server Framework</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch26s02.html"/> 
+          <ncx:navPoint id="id2445053" playOrder="276"> 
+            <ncx:navLabel> 
+              <ncx:text>26.2.1. Understanding the Commonalities</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch26s02.html#understanding_the_commonalities"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2445279" playOrder="277"> 
+            <ncx:navLabel> 
+              <ncx:text>26.2.2. Accommodating Variation</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch26s02.html#accommodating_variation"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2445623" playOrder="278"> 
+            <ncx:navLabel> 
+              <ncx:text>26.2.3. Tying It All Together</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch26s02.html#tying_it_all_together"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2446070" playOrder="279"> 
+          <ncx:navLabel> 
+            <ncx:text>26.3. Implementing Sequential Logging Servers</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch26s03.html"/> 
+          <ncx:navPoint id="id2446147" playOrder="280"> 
+            <ncx:navLabel> 
+              <ncx:text>26.3.1. An Iterative Logging Server</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch26s03.html#an_iterative_logging_server"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2446340" playOrder="281"> 
+            <ncx:navLabel> 
+              <ncx:text>26.3.2. A Reactive Logging Server</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch26s03.html#a_reactive_logging_server"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2446851" playOrder="282"> 
+            <ncx:navLabel> 
+              <ncx:text>26.3.3. Evaluating the Sequential Logging Server Solutions</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch26s03.html#evaluating_the_sequential_logging_server_solutions"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2447048" playOrder="283"> 
+          <ncx:navLabel> 
+            <ncx:text>26.4. Implementing Concurrent Logging Servers</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch26s04.html"/> 
+          <ncx:navPoint id="id2447112" playOrder="284"> 
+            <ncx:navLabel> 
+              <ncx:text>26.4.1. A Thread-per-Connection Logging Server</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch26s04.html#a_thread-per-connection_logging_server"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2447645" playOrder="285"> 
+            <ncx:navLabel> 
+              <ncx:text>26.4.2. A Process-per-Connection Logging Server</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch26s04.html#a_process-per-connection_logging_server"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2448071" playOrder="286"> 
+            <ncx:navLabel> 
+              <ncx:text>26.4.3. Evaluating the Concurrent Logging Server Solutions</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch26s04.html#evaluating_the_concurrent_logging_server_solutions"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2448147" playOrder="287"> 
+          <ncx:navLabel> 
+            <ncx:text>26.5. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch26s05.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2448250" playOrder="288"> 
+        <ncx:navLabel> 
+          <ncx:text>27. Integrating Business Partners the RESTful Way</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch27.html"/> 
+        <ncx:navPoint id="id2448319" playOrder="289"> 
+          <ncx:navLabel> 
+            <ncx:text>27.1. Project Background</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch27.html#project_background"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2448390" playOrder="290"> 
+          <ncx:navLabel> 
+            <ncx:text>27.2. Exposing Services to External Clients</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch27s02.html"/> 
+          <ncx:navPoint id="id2448643" playOrder="291"> 
+            <ncx:navLabel> 
+              <ncx:text>27.2.1. Define the Service Interface</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch27s02.html#define_the_service_interface"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2449094" playOrder="292"> 
+          <ncx:navLabel> 
+            <ncx:text>27.3. Routing the Service Using the Factory Pattern</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch27s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2449431" playOrder="293"> 
+          <ncx:navLabel> 
+            <ncx:text>27.4. Exchanging Data Using E-Business Protocols</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch27s04.html"/> 
+          <ncx:navPoint id="id2449651" playOrder="294"> 
+            <ncx:navLabel> 
+              <ncx:text>27.4.1. Parsing the XML Using XPath</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch27s04.html#parsing_the_xml_using_xpath"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2450265" playOrder="295"> 
+            <ncx:navLabel> 
+              <ncx:text>27.4.2. Assembling the XML Response</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch27s04.html#assembling_the_xml_response"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2450344" playOrder="296"> 
+          <ncx:navLabel> 
+            <ncx:text>27.5. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch27s05.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2450431" playOrder="297"> 
+        <ncx:navLabel> 
+          <ncx:text>28. Beautiful Debugging</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch28.html"/> 
+        <ncx:navPoint id="id2450532" playOrder="298"> 
+          <ncx:navLabel> 
+            <ncx:text>28.1. Debugging a Debugger</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch28.html#debugging_a_debugger"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2450818" playOrder="299"> 
+          <ncx:navLabel> 
+            <ncx:text>28.2. A Systematic Process</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch28s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2451083" playOrder="300"> 
+          <ncx:navLabel> 
+            <ncx:text>28.3. A Search Problem</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch28s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2451275" playOrder="301"> 
+          <ncx:navLabel> 
+            <ncx:text>28.4. Finding the Failure Cause Automatically</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch28s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2451602" playOrder="302"> 
+          <ncx:navLabel> 
+            <ncx:text>28.5. Delta Debugging</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch28s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2451978" playOrder="303"> 
+          <ncx:navLabel> 
+            <ncx:text>28.6. Minimizing Input</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch28s06.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2452192" playOrder="304"> 
+          <ncx:navLabel> 
+            <ncx:text>28.7. Hunting the Defect</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch28s07.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2452572" playOrder="305"> 
+          <ncx:navLabel> 
+            <ncx:text>28.8. A Prototype Problem</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch28s08.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2452669" playOrder="306"> 
+          <ncx:navLabel> 
+            <ncx:text>28.9. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch28s09.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2452694" playOrder="307"> 
+          <ncx:navLabel> 
+            <ncx:text>28.10. Acknowledgments</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch28s10.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2452729" playOrder="308"> 
+          <ncx:navLabel> 
+            <ncx:text>28.11. Further Reading</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch28s11.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2452790" playOrder="309"> 
+        <ncx:navLabel> 
+          <ncx:text>29. Treating Code As an Essay</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch29.html"/> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2453531" playOrder="310"> 
+        <ncx:navLabel> 
+          <ncx:text>30. When a Button Is All That Connects You to the World</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch30.html"/> 
+        <ncx:navPoint id="id2453794" playOrder="311"> 
+          <ncx:navLabel> 
+            <ncx:text>30.1. Basic Design Model</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch30.html#basic_design_model"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2454235" playOrder="312"> 
+          <ncx:navLabel> 
+            <ncx:text>30.2. Input Interface</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch30s02.html"/> 
+          <ncx:navPoint id="id2454331" playOrder="313"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.1. The Tree</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#the_tree"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2454506" playOrder="314"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.2. The Long Click</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#the_long_click"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2461387" playOrder="315"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.3. Dynamic Tree Repopulation</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#dynamic_tree_repopulation"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2461610" playOrder="316"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.4. Simple Typing</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#simple_typing"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2461667" playOrder="317"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.5. Prediction: Word Completion and Next Word</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#prediction_word_completion_and_next_word"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2461879" playOrder="318"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.6. Templates and Replace</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#templates_and_replace"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2462040" playOrder="319"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.7. The Cache Implementation</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#the_cache_implementation"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2462245" playOrder="320"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.8. Common Words and Favorites</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#common_words_and_favorites"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2462407" playOrder="321"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.9. Retracing Paths</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#retracing_paths"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2462482" playOrder="322"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.10. The Typing Buffer, Editing, and Scrolling</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#the_typing_buffer_editing_and_scrolling"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2462721" playOrder="323"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.11. The Clipboard</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#the_clipboard"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2462794" playOrder="324"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.12. Searching</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#searching"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2462861" playOrder="325"> 
+            <ncx:navLabel> 
+              <ncx:text>30.2.13. Macros</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch30s02.html#macros"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2463009" playOrder="326"> 
+          <ncx:navLabel> 
+            <ncx:text>30.3. Efficiency of the User Interface</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch30s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2463086" playOrder="327"> 
+          <ncx:navLabel> 
+            <ncx:text>30.4. Download</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch30s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2463131" playOrder="328"> 
+          <ncx:navLabel> 
+            <ncx:text>30.5. Future Directions</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch30s05.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2463329" playOrder="329"> 
+        <ncx:navLabel> 
+          <ncx:text>31. Emacspeak: The Complete Audio Desktop</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch31.html"/> 
+        <ncx:navPoint id="id2463468" playOrder="330"> 
+          <ncx:navLabel> 
+            <ncx:text>31.1. Producing Spoken Output</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch31.html#producing_spoken_output"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2463667" playOrder="331"> 
+          <ncx:navLabel> 
+            <ncx:text>31.2. Speech-Enabling Emacs</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch31s02.html"/> 
+          <ncx:navPoint id="id2463707" playOrder="332"> 
+            <ncx:navLabel> 
+              <ncx:text>31.2.1. A Simple First-Cut Implementation</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s02.html#a_simple_first-cut_implementation"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2463809" playOrder="333"> 
+            <ncx:navLabel> 
+              <ncx:text>31.2.2. Iterating on the First-Cut Implementation</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s02.html#iterating_on_the_first-cut_implementation"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2464014" playOrder="334"> 
+            <ncx:navLabel> 
+              <ncx:text>31.2.3. A Brief advice Tutorial</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s02.html#a_brief_advice_tutorial"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2464254" playOrder="335"> 
+            <ncx:navLabel> 
+              <ncx:text>31.2.4. Generating Rich Auditory Output</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s02.html#generating_rich_auditory_output"/> 
+            <ncx:navPoint id="id2464376" playOrder="336"> 
+              <ncx:navLabel> 
+                <ncx:text>31.2.4.1. Audio formatting using voice-lock</ncx:text> 
+              </ncx:navLabel> 
+              <ncx:content src="ch31s02.html#audio_formatting_using_voice-lock"/> 
+            </ncx:navPoint> 
+            <ncx:navPoint id="id2464510" playOrder="337"> 
+              <ncx:navLabel> 
+                <ncx:text>31.2.4.2. Augmenting Emacs to create aural display lists</ncx:text> 
+              </ncx:navLabel> 
+              <ncx:content src="ch31s02.html#augmenting_emacs_to_create_aural_display_lists"/> 
+            </ncx:navPoint> 
+            <ncx:navPoint id="id2464882" playOrder="338"> 
+              <ncx:navLabel> 
+                <ncx:text>31.2.4.3. Audio-formatted output from aural display lists</ncx:text> 
+              </ncx:navLabel> 
+              <ncx:content src="ch31s02.html#audio-formatted_output_from_aural_display_lists"/> 
+            </ncx:navPoint> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2465319" playOrder="339"> 
+            <ncx:navLabel> 
+              <ncx:text>31.2.5. Using Aural CSS (ACSS) for Styling Speech Output</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s02.html#using_aural_css_acss_for_styling_speech_output"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2465682" playOrder="340"> 
+            <ncx:navLabel> 
+              <ncx:text>31.2.6. Adding Auditory Icons</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s02.html#adding_auditory_icons"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2465954" playOrder="341"> 
+            <ncx:navLabel> 
+              <ncx:text>31.2.7. Producing Auditory Icons While Speaking Content</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s02.html#producing_auditory_icons_while_speaking_content"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2466064" playOrder="342"> 
+            <ncx:navLabel> 
+              <ncx:text>31.2.8. The Calendar: Enhancing Spoken Output with Context-Sensitive Semantics</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s02.html#the_calendar_enhancing_spoken_output_with_context-sensitive_sem"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2466469" playOrder="343"> 
+          <ncx:navLabel> 
+            <ncx:text>31.3. Painless Access to Online Information</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch31s03.html"/> 
+          <ncx:navPoint id="id2466654" playOrder="344"> 
+            <ncx:navLabel> 
+              <ncx:text>31.3.1. Basic HTML with Emacs W3 and Aural CSS</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s03.html#basic_html_with_emacs_w3_and_aural_css"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2466839" playOrder="345"> 
+            <ncx:navLabel> 
+              <ncx:text>31.3.2. The emacspeak-websearch Module for Task-Oriented Search</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s03.html#the_emacspeak-websearch_module_for_task-oriented_search"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2467412" playOrder="346"> 
+            <ncx:navLabel> 
+              <ncx:text>31.3.3. The Web Command Line and URL Templates</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s03.html#the_web_command_line_and_url_templates"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2467684" playOrder="347"> 
+            <ncx:navLabel> 
+              <ncx:text>31.3.4. The Advent of Feed Readers</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s03.html#the_advent_of_feed_readers"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2467856" playOrder="348"> 
+          <ncx:navLabel> 
+            <ncx:text>31.4. Summary</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch31s04.html"/> 
+          <ncx:navPoint id="id2467972" playOrder="349"> 
+            <ncx:navLabel> 
+              <ncx:text>31.4.1. Managing Code Complexity Over Time</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s04.html#managing_code_complexity_over_time"/> 
+          </ncx:navPoint> 
+          <ncx:navPoint id="id2468228" playOrder="350"> 
+            <ncx:navLabel> 
+              <ncx:text>31.4.2. Conclusion</ncx:text> 
+            </ncx:navLabel> 
+            <ncx:content src="ch31s04.html#conclusion-id017"/> 
+          </ncx:navPoint> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2468329" playOrder="351"> 
+          <ncx:navLabel> 
+            <ncx:text>31.5. Acknowledgments</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch31s05.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2468369" playOrder="352"> 
+        <ncx:navLabel> 
+          <ncx:text>32. Code in Motion</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch32.html"/> 
+        <ncx:navPoint id="id2468547" playOrder="353"> 
+          <ncx:navLabel> 
+            <ncx:text>32.1. On Being "Bookish"</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch32.html#on_being_bookish"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2468680" playOrder="354"> 
+          <ncx:navLabel> 
+            <ncx:text>32.2. Alike Looking Alike</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch32s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2468778" playOrder="355"> 
+          <ncx:navLabel> 
+            <ncx:text>32.3. The Perils of Indentation</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch32s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2468882" playOrder="356"> 
+          <ncx:navLabel> 
+            <ncx:text>32.4. Navigating Code</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch32s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2469013" playOrder="357"> 
+          <ncx:navLabel> 
+            <ncx:text>32.5. The Tools We Use</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch32s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2469194" playOrder="358"> 
+          <ncx:navLabel> 
+            <ncx:text>32.6. DiffMerge's Checkered Past</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch32s06.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2469485" playOrder="359"> 
+          <ncx:navLabel> 
+            <ncx:text>32.7. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch32s07.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2469540" playOrder="360"> 
+          <ncx:navLabel> 
+            <ncx:text>32.8. Acknowledgments</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch32s08.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2469563" playOrder="361"> 
+          <ncx:navLabel> 
+            <ncx:text>32.9. Further Reading</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch32s09.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2469646" playOrder="362"> 
+        <ncx:navLabel> 
+          <ncx:text>33. Writing Programs for "The Book"</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="ch33.html"/> 
+        <ncx:navPoint id="id2469716" playOrder="363"> 
+          <ncx:navLabel> 
+            <ncx:text>33.1. The Nonroyal Road</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch33.html#the_nonroyal_road"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2469799" playOrder="364"> 
+          <ncx:navLabel> 
+            <ncx:text>33.2. Warning to Parenthophobes</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch33s02.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2469903" playOrder="365"> 
+          <ncx:navLabel> 
+            <ncx:text>33.3. Three in a Row</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch33s03.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2470532" playOrder="366"> 
+          <ncx:navLabel> 
+            <ncx:text>33.4. The Slippery Slope</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch33s04.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2470969" playOrder="367"> 
+          <ncx:navLabel> 
+            <ncx:text>33.5. The Triangle Inequality</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch33s05.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2471249" playOrder="368"> 
+          <ncx:navLabel> 
+            <ncx:text>33.6. Meandering On</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch33s06.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2471451" playOrder="369"> 
+          <ncx:navLabel> 
+            <ncx:text>33.7. "Duh!"—I Mean "Aha!"</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch33s07.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2471680" playOrder="370"> 
+          <ncx:navLabel> 
+            <ncx:text>33.8. Conclusion</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch33s08.html"/> 
+        </ncx:navPoint> 
+        <ncx:navPoint id="id2471753" playOrder="371"> 
+          <ncx:navLabel> 
+            <ncx:text>33.9. Further Reading</ncx:text> 
+          </ncx:navLabel> 
+          <ncx:content src="ch33s09.html"/> 
+        </ncx:navPoint> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2471929" playOrder="372"> 
+        <ncx:navLabel> 
+          <ncx:text>A. Afterword</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="apa.html"/> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2472027" playOrder="373"> 
+        <ncx:navLabel> 
+          <ncx:text>B. Contributors</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="apb.html"/> 
+      </ncx:navPoint> 
+      <ncx:navPoint id="id2473088" playOrder="374"> 
+        <ncx:navLabel> 
+          <ncx:text>Colophon</ncx:text> 
+        </ncx:navLabel> 
+        <ncx:content src="co01.html"/> 
+      </ncx:navPoint> 
+    </ncx:navPoint> 
+  </ncx:navMap> 
+</ncx:ncx> 
