@@ -1,16 +1,22 @@
 <?php
 
-include 'preg_find.php';
+// 
+// Lists the .epub files in a directory in Atom format
+//
+include ("include/feedcreator.class.php"); // generates atom files
+include ("include/ebookRead.php");         // parses .epub
+include ("include/preg_find.php");         // searches directories for files
 
 // where are the files?
 $rootpath = "C:\dropbox\ebooks";
 
+// look in a subdirectory if requested
 $param = $_GET["dir"];
-
 $param = str_replace(".", "", $param);
 
 $dirname = $rootpath.$param."/";
 
+// check it exists
 $dir = @opendir($dirname) or die("Unable to open $rootpath");
 
 //while ($p = readdir($dir)) {
