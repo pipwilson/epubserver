@@ -1,11 +1,11 @@
 <?php
 
-// 
+//
 // Lists the .epub files in a directory in Atom format
 //
-include ("include/feedcreator.class.php"); // generates atom files
-include ("include/ebookRead.php");         // parses .epub
-include ("include/preg_find.php");         // searches directories for files
+require_once("include/feedcreator.class.php"); // generates atom files
+require_once("include/ebookRead.php");         // parses .epub
+require_once("include/preg_find.php");         // searches directories for files
 
 // where are the files?
 $rootpath = "C:\dropbox\ebooks";
@@ -14,10 +14,10 @@ $rootpath = "C:\dropbox\ebooks";
 $param = $_GET["dir"];
 $param = str_replace(".", "", $param);
 
-$dirname = $rootpath.$param."/";
+$epubdir = $rootpath.$param."/";
 
 // check it exists
-$dir = @opendir($dirname) or die("Unable to open $rootpath");
+$dir = @opendir($epubdir) or die("Unable to open $rootpath");
 
 //while ($p = readdir($dir)) {
 //    if (is_file($p) == FALSE && $p != "." && $p != "..") {
@@ -26,6 +26,7 @@ $dir = @opendir($dirname) or die("Unable to open $rootpath");
 
         // the request url without this filename
         $scriptpath = explode("/", $_SERVER["REQUEST_URI"]);
+
         // delete the last element
         $scriptpath[count($scriptpath) - 1] = "";
         $scriptpath = implode("/", $scriptpath);
@@ -34,26 +35,34 @@ $dir = @opendir($dirname) or die("Unable to open $rootpath");
 
         header('Content-type: application/xml');
 
-        $xml = new XmlWriter();
-        $xml->openMemory();
-        $xml->startDocument('1.0', 'UTF-8');
-
-        $xml->startElement('rss');
-        $xml->writeAttribute('version', '2.0');
-
-        $xml->startElement('channel');
-        $xml->writeElement('title', $param);
-        $xml->writeElement('link', $scripturl);
+        //define channel
+        $atom = new UniversalFeedCreator();
+        $atom->useCached();
+        $atom->title = "My epub files"; // todo: replace with a $catalogname field
+        $atom->description = "epub files on my server";
+        $atom->link = "http://mydomain.net/";
+        $atom->syndicationURL = $scripturl
 
         // sort the files by date so the most recent is first in the feed
-        $files = preg_find('/./', $dirname, PREG_FIND_RECURSIVE|PREG_FIND_RETURNASSOC |PREG_FIND_SORTMODIFIED|PREG_FIND_SORTDESC);
+        // preg_find(pattern, starting dir, args)
+        $files = preg_find('/./', $epubdir, PREG_FIND_RECURSIVE|PREG_FIND_RETURNASSOC |PREG_FIND_SORTMODIFIED|PREG_FIND_SORTDESC);
         $files = array_keys($files);
-        
+
         // add the files to the feed
         foreach($files as $file) {
 
-            if (preg_match("/\.mp3$/", $file)) {
-                $ThisFileInfo = $getID3->analyze($file);
+            if (preg_match("/\.epub$/", $file)) { //todo: replace this with a change to the preg_find pattern above
+                $ebook = new ebookRead($ebookfile);
+
+                //channel items/entries
+                $item = new FeedItem();
+                $item->title = $ebook->getDcTitle();
+                $item->linktype = "application/epub+zip";
+                $item->link = $file;
+                $item->description = $ebook->getDcDescription();
+                $item->source = "http://mydomain.net";
+                $item->author = $ebook->getDcContributor();
+
 
                 $xml->startElement('item');
                 $xml->writeElement('title', $ThisFileInfo['tags']['id3v2']['title'][0]);
