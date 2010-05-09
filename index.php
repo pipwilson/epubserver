@@ -57,7 +57,13 @@ foreach($files as $file) {
         $item->link = $file;
         $item->description = $ebook->getDcDescription();
         $item->source = "http://mydomain.net";
-        $item->author = $ebook->getDcContributor();
+        //echo implode(',', $ebook->getDcCreator());
+        if(is_array($ebook->getDcCreator())) {
+            $item->author = implode(', ', $ebook->getDcCreator());
+        } else {
+            $item->author = $ebook->getDcCreator();
+        }
+
 
         $atom->addItem($item);
     }

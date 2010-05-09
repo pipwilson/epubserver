@@ -1,7 +1,6 @@
 <?php
 
-    require_once('ebookRead.php');
-    require_once('ebookData.php');
+    require_once('include/ebookRead.php');
 
     function metadata($ebook){
         display("<b>Title:</b>", $ebook->getDcTitle());
@@ -24,6 +23,7 @@
 
     function display($title, $data){
     $info = "";
+
     if(is_array($data)){
         foreach($data as $element){
             if($info == "")
@@ -33,6 +33,7 @@
         }
         $data = $info;
     }
+
     if($data != "")
         echo $title." ".$data."\n <br />";
 
@@ -43,6 +44,12 @@
     //read our epub file
     $ebook = new ebookRead($ebookfile);
 
-    metadata($ebook);
-    
+    //$creator = $ebook->ebookData->creator;
+    $creator = $ebook->getDcCreator();
+    print_r($creator);
+    echo "<br>";
+    echo $creator[0]
+
+    //metadata($ebook);
+
 ?>

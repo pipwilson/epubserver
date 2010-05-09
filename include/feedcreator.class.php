@@ -1276,10 +1276,7 @@ class PIECreator01 extends FeedCreator {
 		$feed.= ">\n";
 		$feed.= "    <title>".htmlspecialchars($this->title)."</title>\n";
 		$feed.= "    <subtitle>".htmlspecialchars($this->description)."</subtitle>\n";
-        if ($this->linktype=="") {
-            $this->linktype="text/html";
-        }
-		$feed.= "    <link rel=\"alternate\" type=\"".$this->linktype."\" href=\"".htmlspecialchars($this->link)."\"/>\n";
+		$feed.= "    <link rel=\"alternate\" type=\"text/html\" href=\"".htmlspecialchars($this->link)."\"/>\n";
 		$feed.= "    <id>".htmlspecialchars($this->link)."</id>\n";
 		$now = new FeedDate();
 		$feed.= "    <updated>".htmlspecialchars($now->iso8601())."</updated>\n";
@@ -1297,7 +1294,10 @@ class PIECreator01 extends FeedCreator {
 		for ($i=0;$i<count($this->items);$i++) {
 			$feed.= "    <entry>\n";
 			$feed.= "        <title>".htmlspecialchars(strip_tags($this->items[$i]->title))."</title>\n";
-			$feed.= "        <link rel=\"alternate\" type=\"text/html\" href=\"".htmlspecialchars($this->items[$i]->link)."\"/>\n";
+            if ($this->items[$i]->linktype=="") {
+                $this->items[$i]->linktype="text/html";
+            }
+			$feed.= "        <link rel=\"alternate\" type=\"".$this->items[$i]->linktype."\" href=\"".htmlspecialchars($this->items[$i]->link)."\"/>\n";
 			if ($this->items[$i]->date=="") {
 				$this->items[$i]->date = time();
 			}

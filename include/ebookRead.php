@@ -44,7 +44,7 @@ class ebookRead{
 		$this->loadOptionalOPF();
 		//$this->loadTOC();
 
-		$this->removeSimpleXML();
+		//$this->removeSimpleXML(); // doesn't flatten array items. phil wilson 09 May 2010
 	}
 
 	/**
