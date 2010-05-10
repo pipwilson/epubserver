@@ -8,6 +8,7 @@ require_once("include/ebookRead.php");         // parses .epub
 require_once("include/preg_find.php");         // searches directories for files
 
 // where are the files?
+// note you will only be able to download them if this dir is available to your web server!
 $rootpath = "C:/dropbox/ebooks";
 
 // look in a subdirectory if requested
@@ -33,21 +34,21 @@ header('Content-type: application/xml');
 //define channel
 $atom = new UniversalFeedCreator();
 $atom->useCached();
-$atom->title = "My epub files"; // todo: replace with a $catalogname field
+$atom->title = "Books in $epubdir"; // todo: replace with a $catalogname field
 $atom->description = "epub files on my server";
 $atom->link = "http://mydomain.net/";
 $atom->syndicationURL = $scripturl;
 
 // sort the files by date so the most recent is first in the feed
 // preg_find(pattern, starting dir, args)
-$files = preg_find('/\.epub$/', $epubdir, PREG_FIND_RECURSIVE|PREG_FIND_RETURNASSOC|PREG_FIND_SORTBASENAME|PREG_FIND_SORTASC);
+$files = preg_find('/\.epub$/', $epubdir, PREG_FIND_RECURSIVE|PREG_FIND_RETURNASSOC|PREG_FIND_SORTBASENAME|PREG_FIND_SORTDESC);
 
 $files = array_keys($files);
 
 // add the files to the feed
 foreach($files as $file) {
 
-    if (is_file($file)) { //todo: replace this with a change to the preg_find pattern above
+    if (is_file($file)) {
         $ebook = new ebookRead($file);
 
         //channel items/entries
@@ -55,15 +56,23 @@ foreach($files as $file) {
         $item->title = $ebook->getDcTitle();
         $item->linktype = "application/epub+zip";
         $item->link = $file;
-        $item->description = $ebook->getDcDescription();
-        $item->source = "http://mydomain.net";
-        //echo implode(',', $ebook->getDcCreator());
+
+        // <link rel="x-stanza-cover-image" type="image/jpeg" href="/get/cover/3"/>
+        // <link rel="x-stanza-cover-image-thumbnail" type="image/jpeg" href="/get/thumb/3"/>
+
+        // if there is no description set it to be the same as the titke
+        if($ebook->getDcDescription() == "") {
+            $item->description = $item->title;
+        } else {
+            $item->description = strip_tags($ebook->getDcDescription());
+        }
+
+        // sometimes DcCreator is an array, so make sure we display in both cases
         if(is_array($ebook->getDcCreator())) {
             $item->author = implode(', ', $ebook->getDcCreator());
         } else {
             $item->author = $ebook->getDcCreator();
         }
-
 
         $atom->addItem($item);
     }
@@ -72,6 +81,5 @@ foreach($files as $file) {
 $atom->outputFeed("ATOM1.0");
 
 closedir($dir);
-#echo "Done!";
 
 ?>
