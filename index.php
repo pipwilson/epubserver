@@ -9,9 +9,10 @@ require_once("include/preg_find.php");         // searches directories for files
 
 // where are the files?
 // note you will only be able to download them if this dir is available to your web server!
-$rootpath = "C:/dropbox/ebooks";
+// this can be an absolute or relative location
+$rootpath = "books/";
 
-// look in a subdirectory if requested
+// look in a subdirectory of the rootpath if requested
 $param = $_GET["dir"];
 $param = str_replace(".", "", $param);
 
