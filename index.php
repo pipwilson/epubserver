@@ -19,9 +19,7 @@ $param = str_replace(".", "", $param);
 #echo '/' === $rootpath[strlen($rootpath)];
 
 # if the rootpath doesn't end in a slash, add it
-# (reverse the path and check the position of the first '/')
-#if (!(stripos(strrev($rootpath), '/') === 0)) {
-    if ('/' != $rootpath[strlen($rootpath)]) {
+if ('/' != $rootpath[strlen($rootpath)]) {
     $rootpath .= '/';
 }
 
