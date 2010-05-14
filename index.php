@@ -10,13 +10,22 @@ require_once("include/preg_find.php");         // searches directories for files
 // where are the files?
 // note you will only be able to download them if this dir is available to your web server!
 // this can be an absolute or relative location
-$rootpath = "books/";
+$rootpath = "books";
 
 // look in a subdirectory of the rootpath if requested
 $param = $_GET["dir"];
 $param = str_replace(".", "", $param);
 
-$epubdir = $rootpath.$param."/";
+#echo '/' === $rootpath[strlen($rootpath)];
+
+# if the rootpath doesn't end in a slash, add it
+# (reverse the path and check the position of the first '/')
+#if (!(stripos(strrev($rootpath), '/') === 0)) {
+    if ('/' != $rootpath[strlen($rootpath)]) {
+    $rootpath .= '/';
+}
+
+$epubdir = $rootpath.$param;
 
 // check it exists
 $dir = @opendir($epubdir) or die("Unable to open $rootpath");
