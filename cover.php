@@ -5,26 +5,14 @@
 //
 require_once("include/ebookRead.php");         // parses .epub
 
-// where are the files?
-// note you will only be able to download them if this dir is available to your web server!
-// this can be an absolute or relative location
-$rootpath = "books";
-
-# if the rootpath doesn't end in a slash, add it
-if ('/' != $rootpath[strlen($rootpath)]) {
-    $rootpath .= '/';
-}
-
-// look in a subdirectory of the rootpath if requested
-$subdir = $_GET["dir"];
-$subdir = str_replace(".", "", $subdir);
-
 // get the name of the file we want the cover of
 // er, and what's to stop us going up a directory, eh?
 $filename = $_GET["filename"];
 if(!$filename) {
     $filename = "Jules Verne - From the Earth to the Moon.epub";
 }
+
+$filename = str_replace(".", "", $filename);
 
 $epubfile = $rootpath.$subdir.$filename;
 

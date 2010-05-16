@@ -8,3 +8,18 @@ This code lives in git on:
 
 http://github.com/pipwilson/epubserver
 http://philwilson.org/code/epubserver
+
+Library modifictions
+====================
+
+Feedcreator has been modified to:
+
+* allow the @type of <link rel="alternate" ... > of atom:entry to be set, since epub files are application/epub+zip
+* allow multiple <link> elements in atom:entry to allow for linking to book covers
+* remove PIE and Atom 0.3 support
+
+oplsepublibrary has been modified to:
+
+* disable the removeSimpleXml() call, which does not correctly flatten Array structures (i.e. multiple authors)
+* remove folder setting in getContentFile() if the contentFolder is "./", since the zip file comparison will not work otherwise
+* some of the comment typos have been changed, but only as I see them in the bits of code I've used

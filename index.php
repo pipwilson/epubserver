@@ -65,6 +65,20 @@ foreach($files as $file) {
 
         // <link rel="x-stanza-cover-image" type="image/jpeg" href="cover.php?filename=$file"/>
 
+        $coverLink = new LinkItem();
+        $coverLink->rel = "x-stanza-cover-image";
+        $coverLink->type = "image/jpeg";
+        $coverLink->href = "cover.php?filename=$file";
+
+        $item->addLink($coverLink);
+
+        $thumbnailLink = new LinkItem();
+        $thumbnailLink->rel = "x-stanza-cover-image-thumbnail";
+        $thumbnailLink->type = "image/jpeg";
+        $thumbnailLink->href = "cover.php?filename=$file&amp;type=thumb";
+
+        $item->addLink($thumbnailLink);
+
         // <link rel="x-stanza-cover-image" type="image/jpeg" href="/get/cover/3"/>
         // <link rel="x-stanza-cover-image-thumbnail" type="image/jpeg" href="/get/thumb/3"/>
 
@@ -86,6 +100,7 @@ foreach($files as $file) {
     }
 }
 
+// can also saveFeed(format, filename) if we want
 $atom->outputFeed("ATOM1.0");
 
 closedir($dir);

@@ -164,8 +164,8 @@ while ($data = mysql_fetch_object($res)) {
     $rss->addItem($item);
 }
 
-// valid format strings are: RSS0.91, RSS1.0, RSS2.0, PIE0.1 (deprecated),
-// MBOX, OPML, ATOM, ATOM10, ATOM0.3, HTML, JS
+// valid format strings are: RSS0.91, RSS1.0, RSS2.0,
+// MBOX, OPML, ATOM, ATOM10, HTML, JS
 echo $rss->saveFeed("RSS1.0", "news/feed.xml");
 
 //to generate "on-the-fly"
@@ -248,6 +248,16 @@ class FeedItem extends HtmlDescribable {
 
 	// on hold
 	// var $source;
+
+	/**
+	 * Adds a FeedLink to the FeedItem.
+	 *
+	 * @param object FeedLink $link The FeedLink to add to the entry.
+	 * @access public
+	 */
+	function addLink($link) {
+		$this->links[] = $link;
+	}
 }
 
 class EnclosureItem extends HtmlDescribable {
@@ -416,10 +426,6 @@ class UniversalFeedCreator extends FeedCreator {
 				header('Content-type: text/xml', true);
 				break;
 
-			case "PIE0.1":
-				header('Content-type: text/xml', true);
-				break;
-
 			case "MBOX":
 				header('Content-type: text/plain', true);
 				break;
@@ -433,11 +439,6 @@ class UniversalFeedCreator extends FeedCreator {
 			case "ATOM1.0":
 				header('Content-type: application/xml', true);
 				break;
-
-			case "ATOM0.3":
-				header('Content-type: application/xml', true);
-				break;
-
 
 			case "HTML":
 				header('Content-type: text/html', true);
@@ -479,10 +480,6 @@ class UniversalFeedCreator extends FeedCreator {
 				$this->_feed = new RSSCreator091();
 				break;
 
-			case "PIE0.1":
-				$this->_feed = new PIECreator01();
-				break;
-
 			case "MBOX":
 				$this->_feed = new MBOXCreator();
 				break;
@@ -495,11 +492,6 @@ class UniversalFeedCreator extends FeedCreator {
 				// fall through: always the latest ATOM version
 			case "ATOM1.0":
 				$this->_feed = new AtomCreator10();
-				break;
-
-
-			case "ATOM0.3":
-				$this->_feed = new AtomCreator03();
 				break;
 
 			case "HTML":
@@ -531,7 +523,7 @@ class UniversalFeedCreator extends FeedCreator {
 	 *
 	 * @see        FeedCreator::addItem()
 	 * @param    string    format    format the feed should comply to. Valid values are:
-	 *			"PIE0.1", "mbox", "RSS0.91", "RSS1.0", "RSS2.0", "OPML", "ATOM0.3", "HTML", "JS"
+	 *			"mbox", "RSS0.91", "RSS1.0", "RSS2.0", "OPML", "ATOM", "HTML", "JS"
 	 * @return    string    the contents of the feed.
 	 */
 	function createFeed($format = "RSS0.91") {
@@ -547,7 +539,7 @@ class UniversalFeedCreator extends FeedCreator {
 	 * @since 1.4
 	 *
 	 * @param	string	format	format the feed should comply to. Valid values are:
-	 *			"PIE0.1" (deprecated), "mbox", "RSS0.91", "RSS1.0", "RSS2.0", "OPML", "ATOM", "ATOM0.3", "HTML", "JS"
+	 *			"mbox", "RSS0.91", "RSS1.0", "RSS2.0", "OPML", "ATOM", "HTML", "JS"
 	 * @param	string	filename	optional	the filename where a recent version of the feed is saved. If not specified, the filename is $_SERVER["PHP_SELF"] with the extension changed to .xml (see _generateFilename()).
 	 * @param	boolean	displayContents	optional	send the content of the file or not. If true, the file will be sent in the body of the response.
 	 */
@@ -565,7 +557,7 @@ class UniversalFeedCreator extends FeedCreator {
     * (web fetching, for example).
     *
     * @param   string   format   format the feed should comply to. Valid values are:
-    *       "PIE0.1" (deprecated), "mbox", "RSS0.91", "RSS1.0", "RSS2.0", "OPML", "ATOM0.3".
+    *       "mbox", "RSS0.91", "RSS1.0", "RSS2.0", "OPML", "ATOM".
     * @param filename   string   optional the filename where a recent version of the feed is saved. If not specified, the filename is $_SERVER["PHP_SELF"] with the extension changed to .xml (see _generateFilename()).
     * @param timeout int      optional the timeout in seconds before a cached version is refreshed (defaults to 3600 = 1 hour)
     */
@@ -579,7 +571,7 @@ class UniversalFeedCreator extends FeedCreator {
 	* Outputs feed to the browser - needed for on-the-fly feed generation (like it is done in WordPress, etc.)
 	*
 	* @param	format	string	format the feed should comply to. Valid values are:
-    * 							"PIE0.1" (deprecated), "mbox", "RSS0.91", "RSS1.0", "RSS2.0", "OPML", "ATOM0.3".
+    * 							"mbox", "RSS0.91", "RSS1.0", "RSS2.0", "OPML", "ATOM".
 	*/
    function outputFeed($format='RSS0.91') {
 		$this->_setFormat($format);
@@ -1249,6 +1241,9 @@ class RSSCreator20 extends RSSCreator091 {
                 $this->items[$i]->linktype="text/html";
             }
 			$feed.= "        <link rel=\"alternate\" type=\"".$this->items[$i]->linktype."\" href=\"".htmlspecialchars($this->items[$i]->link)."\"/>\n";
+            for ($j=0; $j<count($this->items[$i]->links); $j++) {
+                $feed.= "        <link rel=\"".$this->items[$i]->links[$j]->rel."\" type=\"".$this->items[$i]->links[$j]->type."\" href=\"".$this->items[$i]->links[$j]->href."\"/>";
+            }
 			if ($this->items[$i]->date=="") {
 				$this->items[$i]->date = time();
 			}
@@ -1660,7 +1655,7 @@ $rss->image = $image;
 	$rss->addItem($item);
 //}
 
-// valid format strings are: RSS0.91, RSS1.0, RSS2.0, PIE0.1, MBOX, OPML, ATOM0.3, HTML, JS
+// valid format strings are: RSS0.91, RSS1.0, RSS2.0, MBOX, OPML, HTML, JS
 echo $rss->saveFeed("RSS0.91", "feed.xml");
 
 
