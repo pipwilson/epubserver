@@ -3,3 +3,8 @@ A simple sever that delivers an openpub (Atom) file listing the .epub files in a
 It is written in PHP and uses http://sourceforge.net/projects/oplsepublibrary/ to parse the .epub files.
 
 It is GPL licensed.
+
+This code lives in git on:
+
+http://github.com/pipwilson/epubserver
+http://philwilson.org/code/epubserver

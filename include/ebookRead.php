@@ -48,9 +48,9 @@ class ebookRead{
 	}
 
 	/**
-	 * Gives you the path of the file(s) with the extenshion you are looking for. **Recursive Function**
+	 * Gives you the path of the file(s) with the extension you are looking for. **Recursive Function**
 	 * @param $input The epub file that contains the files your will be searching, or the directory to search.
-	 * @param string $ext The extenshion you will be looking for.
+	 * @param string $ext The extension you will be looking for.
 	 * @return string Will return a string of a single file location if only one file with that extenshion exists,
 	 * or an array of file locations if more then one exists, or null if none exist.
 	 **/
@@ -811,7 +811,7 @@ class ebookRead{
 
 	/**
 	 * Get a file path by extenshion
-	 * @param string $ext The file exenshion of the file your looking for.
+	 * @param string $ext The file extension of the file your looking for.
 	 * @return string Null if there are no results, a single file path if only one file exists, or an array
 	 * of paths if more then one file by that extenshion exist.
 	 **/
@@ -843,9 +843,14 @@ class ebookRead{
 	public function getContentFile($location){
 		if(isset($this->ebookData->tempDir)){
 			return file_get_contents($this->ebookData->contentFolder.$location);
-		}else if(isset($this->ebookData->epub)){
-			return $this->readEpubFile($this->ebookData->epub, $this->ebookData->contentFolder.$location);
-		}else{
+		} else if(isset($this->ebookData->epub)){
+            if($this->ebookData->contentFolder == "./") {
+                $contentFolder = "";
+            } else {
+                $contentFolder = $this->ebookData->contentFolder;
+            }
+			return $this->readEpubFile($this->ebookData->epub, $contentFolder.$location);
+		} else{
 			trigger_error("Can't open content. There is no content.", E_USER_ERROR);
 		}
 	}

@@ -16,8 +16,6 @@ $rootpath = "books";
 $param = $_GET["dir"];
 $param = str_replace(".", "", $param);
 
-#echo '/' === $rootpath[strlen($rootpath)];
-
 # if the rootpath doesn't end in a slash, add it
 if ('/' != $rootpath[strlen($rootpath)]) {
     $rootpath .= '/';
@@ -59,11 +57,13 @@ foreach($files as $file) {
     if (is_file($file)) {
         $ebook = new ebookRead($file);
 
-        //channel items/entries
+        // entries
         $item = new FeedItem();
         $item->title = $ebook->getDcTitle();
         $item->linktype = "application/epub+zip";
         $item->link = $file;
+
+        // <link rel="x-stanza-cover-image" type="image/jpeg" href="cover.php?filename=$file"/>
 
         // <link rel="x-stanza-cover-image" type="image/jpeg" href="/get/cover/3"/>
         // <link rel="x-stanza-cover-image-thumbnail" type="image/jpeg" href="/get/thumb/3"/>

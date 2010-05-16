@@ -12,7 +12,7 @@
 class ebookData{
 	public $epub;						//Path on the server to the .epub file.
 	public $tempDir;					//Path on the server to where this epub's temporary files are stored. (used only when writting)
-	public $contentFolder;				//Path indide of the epub to where the content files are located.
+	public $contentFolder;				//Path inside of the epub to where the content files are located.
 	public $opfPath;					//Path inside of the epub to the .opf file.
 	public $toc;						//Path inside of the epub to the .ncx file (Table of Contents).
 	public $xpgt;						//Path inside of the epub to the .xpgt file (ADE Stylesheet).
