@@ -5,6 +5,13 @@
 //
 require_once("include/ebookRead.php");         // parses .epub
 
+$rootpath = "books";
+
+# if the rootpath doesn't end in a slash, add it
+if ('/' != $rootpath[strlen($rootpath)]) {
+    $rootpath .= '/';
+}
+
 // get the name of the file we want the cover of
 // er, and what's to stop us going up a directory, eh?
 $filename = $_GET["filename"];
@@ -13,8 +20,9 @@ if(!$filename) {
 }
 
 $filename = str_replace(".", "", $filename);
+$filename = str_replace("epub", ".epub", $filename); // horrible hack, but stops people having filename=../../
 
-$epubfile = $rootpath.$subdir.$filename;
+$epubfile = $rootpath.$filename;
 
 #echo $epubfile;
 
